@@ -1,0 +1,105 @@
+#work
+	section.portfolio-section
+		.container
+			+grid-container()
+			padding-top: 40px
+			padding-bottom: 80px
+			// background-color: lightblue
+
+		.work-wrap
+			+grid-column(5)
+			margin: 40px 50px
+			// background-color: indianred
+			
+			
+			+bp(max,860px)
+					+grid-column(6)
+					margin-left: 15px
+					margin-right: 15px
+			+bp(max,550px)
+				+grid-column(12)
+
+
+			h1
+				text-align: left
+				font-size: 33px
+				margin-bottom: 30px
+				color: #373E45
+				&:hover
+					color: #3742fa
+				+bp(max,860px)
+					font-size: 25px
+				+bp(max,550px)
+					text-align: center
+
+
+			.img-wrap
+				height: 350px
+				position: relative
+				+bp(max,860px)
+					height: auto
+				+bp(max,550px)
+					height: auto
+				&:hover
+					cursor: pointer
+				a
+
+					h2
+						position: absolute
+						top: 25px
+						left: 25px
+						visibility: hidden
+						font-size: 26px
+						color: white
+
+						
+
+						
+					&:hover
+						img
+							opacity: 0.1
+
+
+
+						h2
+							visibility: visible
+							-webkit-animation-duration: 0.3s
+						    -moz-animation-duration: 0.3
+						    -ms-transition-animation-duration: 0.3s
+
+				// background-color: pink
+				img 
+					display: block
+					margin: 0 auto
+					+bp(max,860px)
+						max-width: 100%
+					+bp(max,550px)
+						width: 100%
+						height: auto
+			.first
+				background-color: #7cc576
+			.second
+				background-color: #f31878
+			.third
+				background-color: #354044
+			.fourth
+				background-color: #a286c0
+			.fifth
+				background-color: #7cc576
+			.sixth
+				background-color: black
+			a
+				display: block
+				text-align: right
+				margin-top: 20px
+				font-size: 21px
+				font-family: 'Play', cursive
+				font-weight: bold
+				color: #535c68
+
+				&:hover
+					color: #3742fa
+			
+				+bp(max,550px)
+							text-align: center
+

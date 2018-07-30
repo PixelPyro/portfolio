@@ -1,0 +1,159 @@
+.work-section
+	-webkit-transition-property:color, background 
+	-webkit-transition-duration: 0.5s, 0.5s
+	-webkit-transition-timing-function: linear, ease-inmain
+	padding-top: 105px
+	padding-bottom: 105px
+	height: 450px
+
+
+
+	// .animated
+	// 	-webkit-animation-duration: 1s
+	//     -moz-animation-duration: 1
+	//     -ms-transition-animation-duration: 1s
+	.hideme
+		opacity: 0 
+
+	h1
+		color: white
+		margin-bottom: 30px
+		font-size: 50px
+		+bp(max,860px)
+			font-size: 30px
+		+bp(max,550px)
+			text-align: center
+			font-size: 28px
+	p
+		line-height: 1.5
+		font-family: sans-serif
+
+
+	.work-desc-right
+		+grid-column(5)
+		+bp(max,550px)
+			+grid-column(12)
+
+
+	.work-showcase-right
+		+grid-column(6)
+		+grid-push(1)
+		+bp(max,550px)
+			+grid-column(12)
+			+grid-push(0)
+	
+		img
+			display: block
+			margin: 0 auto
+			+bp(max,850px)
+				max-width: 100%
+			+bp(max,550px)
+				+grid-column(12)
+
+			
+	.work-desc-left
+		+grid-column(5)
+		+grid-push(1)
+		+bp(max,550px)
+			+grid-column(12)
+			+grid-push(0)
+
+	.work-showcase-left
+		+grid-column(6)
+		+bp(max,550px)
+			+grid-column(12)
+		img
+			display: block
+			margin: 0 auto
+			+bp(max,850px)
+				max-width: 100%
+			+bp(max,550px)
+				+grid-column(12)
+
+			
+
+	p, a 
+		color: white
+	p
+		font-size: 18px
+
+	.btn-seemore
+		width: 150px
+		margin-top: 60px
+		background-color: blue
+
+
+		a
+			p
+
+				font-size: 18px
+				text-align: center
+				padding: 6px
+				font-weight: 900
+				font-size: em(20)
+				font-family: 'Play', cursive
+
+
+#allprojects
+	text-align: center
+	padding-bottom: 80px
+	+bp(max,550px)
+		padding-top: 80px	
+	.btn-all-projects
+		background-color: blue
+		width: 200px
+		margin: 0 auto
+		+bp(max,550px)
+			padding: 5px 15px
+		a
+			color: white
+			line-height: 2.3
+			font-size: 18px
+			font-weight: bold
+			font-family: 'Play', cursive
+
+
+.work-desc-right
+	+bp(max,550px)
+		display: none
+
+.work-desc-left
+	+bp(max,550px)
+		display: none
+
+.work-showcase-right
+	+bp(max,550px)
+		text-align: center
+		+grid-column(12)
+	.project-title
+		display: none
+		+bp(max,550px)
+			text-align: center
+			display: block
+
+	.btn-seemore
+		display: none
+		+bp(max,550px)
+			display: inline-block
+			margin: 0 auto
+			padding: 5px 15px
+			margin-top: 40px
+
+.work-showcase-left
+	+bp(max,550px)
+		text-align: center
+		+grid-column(12)
+	.project-title
+		display: none
+		+bp(max,550px)
+			text-align: center
+			display: block
+
+	.btn-seemore
+		display: none
+		+bp(max,550px)
+			display: inline-block
+			margin: 0 auto
+			padding: 5px 15px
+			margin-top: 40px
+

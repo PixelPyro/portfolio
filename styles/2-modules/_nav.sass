@@ -1,0 +1,92 @@
+
+
+
+
+nav
+	z-index: 10 !important
+	-webkit-transition-property:color, background 
+	-webkit-transition-duration: 0.5s, 0.5s
+	-webkit-transition-timing-function: linear, ease-in
+	position: fixed
+	width: 100%
+	top: 0
+	.container
+		z-index: 10 !important
+		-webkit-transition-property:color, background 
+		-webkit-transition-duration: 0.5s, 0.5s
+		-webkit-transition-timing-function: linear, ease-in
+
+	label
+		color: white
+	#logo
+		fill: #FFF
+		width: 75px
+		margin-top: 16px
+		float: left
+		margin-left: 10px
+
+.mobile-nav
+	.menu
+		background-color: #3742fa
+	a
+		color: white !important
+	#logo polygon
+		fill: white !important
+	label
+		color: white !important
+
+.nav
+	text-align: right
+	height: 80px
+	line-height: 75px
+	+bp(max,426px)
+		height: 80px
+
+
+	.menu
+		margin: 0 30px 0 0
+		+bp(max,426px)
+			text-align: center
+			height: 40vh
+			width: 100%
+			display: none
+			padding: 40px 0
+
+
+
+		a
+			clear: right
+			text-decoration: none
+			margin: 0 25px
+			font-weight: bolder
+			line-height: 75px
+			font-family: 'Play', cursive
+			color: white
+			+bp(max,426px)
+				display: block
+				text-align: right
+				padding-right: 20px
+				font-weight: lighter
+				letter-spacing: 2px
+				margin: 0
+				font-size: 5vw
+				line-height: 12vh
+
+	label
+		margin: 0 20px 0 0 
+		font-size: 26px
+		line-height: 75px
+		display: none
+		width: 26px
+		float: right
+
+		+bp(max,426px)
+			display: block
+			cursor: pointer
+
+
+	#toggle
+		display: none
+		&:checked + .container .menu
+			display: block
+

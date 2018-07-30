@@ -1,0 +1,176 @@
+#footer
+	clear: both
+	height: 400px
+	padding-bottom: 150px
+	background-color: #f1f2f6
+	+bp(max,550px)
+		height: auto
+		+clearfix
+		padding-bottom: 0px
+	
+
+#footer
+	a
+		font-family: 'Play', cursive
+
+	h1
+		color: #2f3640
+		text-align: center
+		font-size: em(44)
+		+bp(max,550px)
+			font-size: 28px	
+		
+
+
+	svg
+		fill: #f31878
+
+
+// contact form 
+#footer
+	padding-top: 80px
+
+	p
+		color: #2f3640
+		text-align: center
+		font-size: em(19)	
+
+	h2
+		text-align: center
+		color: #2f3640
+		font-size: em(34)
+	h3
+		color: #2f3640
+		font-size: em(23)
+	a
+		color: #2f3640
+	.container
+		.form
+			h3
+				font-size: 20px
+				text-align: center
+				margin-bottom: 30px	
+			margin-top: 50px
+			+grid-column(6)
+			input
+				+grid-column(12)
+				+bp(max,550px)
+					width: 95%
+					margin: 0px
+					float: none
+					font-size: 17px
+					line-height: 1.6
+			textarea
+				font-size: 14px
+				+grid-column(12)
+				+bp(max,550px)
+					width: 95%
+					margin: 0px
+					float: none
+					min-height: 200px
+					line-height: 1.6
+					font-size: 17px
+			button
+				+grid-column(12)
+				width: calc(100% - 20px)
+				+bp(max,550px)
+					width: 150px
+					margin: 0px
+					float: none
+					display: block
+					text-align: center
+					margin: 0 auto
+					margin-top: 30px
+					font-size: 17px
+					line-height: 1.6
+					
+			+bp(max,550px)
+				+grid-column(12)
+				margin: 0px auto
+				padding-top: 45px
+				float: none
+
+		.social
+			margin-top: 50px
+			+grid-column(4)
+			+grid-push(2)
+			+bp(max,550px)
+				width: 100% !important
+				+clearfix
+				margin: 0 auto
+				padding-top: 45px
+				float: none
+				margin: 0px !important 
+				padding-bottom: 30px
+
+			
+
+			h3
+				font-size: 20px
+				margin-bottom: 30px
+				+bp(max,550px)
+					text-align: center
+					margin-top: 20px
+					margin-bottom: 10px
+
+
+			.icon
+				padding-bottom: 63px
+				font-size: 20px
+				+bp(max,550px)
+					float: left
+					font-size: 25px
+					padding: 20px
+
+			.social-icons
+				+bp(max,550px)
+					display: inline-block
+					text-align: center
+					width: auto
+				svg
+					float: left
+					fill: #2f3640
+
+	
+			.icon-text
+				padding-left: 0px !important
+				margin-left: 25px
+				float: left
+
+				&:hover
+					border-bottom: 3px solid #f31878
+					padding-bottom: 5px
+				+bp(max,550px)
+					display: none
+
+			+bp(max,550px)
+				+grid-column(12)
+				text-align: center
+
+#footer > div > div > div.form > form > input[type="text"]:nth-child(1)
+	margin-bottom: 15px
+	padding: 10px
+	border: none
+
+#footer > div > div > div.form > form > input[type="email"]:nth-child(2)
+	margin-bottom: 15px
+	padding: 10px
+	border: none
+
+#footer > div > div > div.form > form > textarea
+	margin-bottom: 15px
+	padding: 10px
+	height: 100px
+	border: none
+
+#contact-sumbit
+	padding: 10px
+	border: none
+	background-color: #2f3640
+	color: white
+	&:hover
+		cursor: pointer		
+
+
+#contact-form > div > form > textarea
+	font-family: sans-serif

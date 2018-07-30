@@ -1,0 +1,28 @@
+#buckleup
+	.container
+
+	#nav, .menu
+		background-color: #f31878
+
+	.header
+		background-color: #f31878
+		color: white
+		min-height: 300px
+		position: relative
+		
+
+
+		img
+			
+			width: 250px
+			position: absolute
+			top: 50%
+			left: 50%
+			transform: translate(-50%, -50%)
+
+			+bp(max,780px)
+				top: 50%
+				width: 250px
+			+bp(max,550px)
+				top: 55%
+				width: 180px

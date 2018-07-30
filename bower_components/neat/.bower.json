@@ -1,0 +1,49 @@
+{
+  "name": "neat",
+  "description": "A lightweight, semantic grid framework",
+  "version": "3.0.0",
+  "main": "core/_neat.scss",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bin",
+    "bin",
+    "CONTRIBUTING.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "lib",
+    "neat.gemspec",
+    "NEWS.md",
+    "Rakefile",
+    "spec"
+  ],
+  "keywords": [
+    "columns",
+    "grid",
+    "layout",
+    "media",
+    "media-queries",
+    "neat",
+    "queries",
+    "sass",
+    "scss",
+    "semantic"
+  ],
+  "authors": [
+    "thoughtbot (http://thoughtbot.com)"
+  ],
+  "homepage": "http://neat.bourbon.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thoughtbot/neat.git"
+  },
+  "_release": "3.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.0",
+    "commit": "1a3c5dbb40325bc6d417477fe6fecf377fb97b01"
+  },
+  "_source": "https://github.com/thoughtbot/neat.git",
+  "_target": "~3.0.0",
+  "_originalSource": "neat"
+}
