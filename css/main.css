@@ -224,7 +224,7 @@ nav #logo { fill: #FFF; width: 75px; margin-top: 16px; float: left; margin-left:
 
 #homepage #header .viewmore { position: absolute; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); bottom: -87.5%; background-color: #3116f8; width: 250px; margin-top: 0px; margin-left: auto; margin-right: auto; display: block; text-align: center; font-family: 'Play', cursive; }
 
-#homepage #header .viewmore:hover { background-color: #f31878; }
+#homepage #header .viewmore:hover { cursor: pointer; background-color: #f31878; }
 
 @media screen and (max-width: 550px) { #homepage #header .viewmore { bottom: -90%; } }
 
